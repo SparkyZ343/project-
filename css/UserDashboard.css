@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: aquamarine;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.UserContainer{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.UserContainer a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.DashboardHeading{
+    display: flex;
+    justify-content: center;
+}

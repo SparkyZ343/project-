@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.HomeNav{
+    background-color:rgb(4, 13, 18);
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+
+
+}
+
+.HomeContainer{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.HomeContainer a{
+margin-left: 10px;
+font-size: 20px;
+color:honeydew;
+text-decoration: none;
+}
+
+.background{
+    width: 100%;
+}
+
+nav h1{
+    color: cornsilk;
+}

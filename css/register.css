@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.RegisterForm{
+    background-color: bisque;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.RegisterHeading{
+    background-color: lightgreen;
+    width: 115px;
+}
+
+.RegisterInput{
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: lightcyan;
+}
+
+.RegisterSubmit{
+    background-color: crimson;
+    color: whitesmoke;
+    width: 70px;
+    border-radius: 3px;
+    border-color:black;
+}
+
+.RegisterContainer{
+    height: 100vh;
+    background-color:rgb(24,61,61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RegisterNav{
+    background-color: rgb(4, 13, 18);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+.RegisterNavContainer{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.RegisterNavContainer a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.RegisterNav h1{
+    color: cornsilk;
+}

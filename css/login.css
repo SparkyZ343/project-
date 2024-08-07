@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.LoginForm{
+    background-color: bisque;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+
+
+.LoginHeading{
+    background-color: lightsalmon;
+    width: 80px;
+}
+
+.LoginInput{
+    height: 30px;
+    background-color: lightcyan;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+}
+
+.LoginSubmit{
+    height: 20px;
+    width: 50px;
+    background-color: crimson;
+    color: whitesmoke;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.LoginContainer{
+    height: 100vh;
+    background-color: rgb(24,61,61);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+nav{
+    background-color:rgb(4, 13, 18);
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+nav h1{
+    color: cornsilk;
+}
+
+.LoginNavContainer{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.LoginNavContainer a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.DashboardHeading{
+    display: flex;
+    justify-content: center;
+}
+
